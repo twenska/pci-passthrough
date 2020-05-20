@@ -1,4 +1,4 @@
-##Passthrough for Win10 Guest in Manjaro Linux QEMU/KVM.
+##Passthrough for Win10 Guest on Fedora Linux w/ QEMU/KVM.
 
 **Hardware:**
 
@@ -8,7 +8,7 @@
 * **RAM:** 16GB DDR4
 
 **Configuration:**
-**Kernel:** 5.4.17-1-MANJARO (no custom patches)
+**Kernel:** 5.6.12-300.fc32.x86 (no custom patches)
 Using **libvirt/QEMU**: libvirt 5.10.0-2/qemu  4.2.0-1
 
 For the most part I followed the [ArchLinux Wiki](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF) guide on the topic.
